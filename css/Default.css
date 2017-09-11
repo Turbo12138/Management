@@ -1,0 +1,62 @@
+body{background: #E6EFF4;margin: 0;padding: 0;}
+a{text-decoration:none;}
+/*a:hover{color:#333;}*/
+a:active{text-decoration:none;}
+a:visited{text-decoration:none;}
+.f-cb:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
+
+.default{width: 921px;height: 600px;position: fixed;margin: auto;top: 0;left: 0;right: 0;bottom: 0;background: #fff url("../images/default.png") no-repeat;border-radius: 4px;}
+.default .load{float: left;margin-left: 400px;width: 520px;height: 600px;}
+.default .load .login{width: 360px;margin: 0 auto;margin-top: 115px;}
+.default .load .login .import{width: 312px;height: 44px;line-height: 44px;padding-left: 44px;border-radius: 8px;outline: none;color: #999999;margin-top: 30px;}
+.default .load .login .blur1{background: url("../images/login.png") no-repeat 10px 8px;border: 1px solid #cccccc;}
+.default .load .login .blur2{background: url("../images/login.png") no-repeat 10px -162px;border: 1px solid #cccccc;}
+.default .load .login .focus1{background: url("../images/login.png") no-repeat 10px -113px;border: 1px solid #F5C505;}
+.default .load .login .focus2{background: url("../images/login.png") no-repeat 10px -41px;border: 1px solid #F5C505;}
+input[type=checkbox], input[type=radio] {
+    margin: 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+.checkboxFive {
+    position: relative;
+    line-height: 14px;
+    float: left;
+}
+.checkboxFive label {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    background: #F4F4F4;
+    /*border:1px solid #ddd;*/
+}
+.checkboxFive label:after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    background: transparent;
+    top: 3px;
+    left: 3px;
+    border: 2px solid #FFF;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.checkboxFive input[type=checkbox]:checked + label {
+    background: #F5C505;
+}
+
+.marTop{margin-top: 15px;}
+.remember{font-size: 14px;color: #F5C505;}
+.forget{float: right;font-size: 14px;color: #333333;-moz-transition: all .5s;-o-transition: all .5s; -webkit-transition: all .5s;transition: all .5s;}
+.forget:hover{color: #F5C505;-moz-transition: all .5s;-o-transition: all .5s; -webkit-transition: all .5s;transition: all .5s;}
+.enter{border: 1px solid #fff;width: 360px;text-align: center;border-radius: 8px;height: 50px;line-height: 50px;background: #F5C505;display: block;font-size: 18px;color: #fff;margin-top: 30px;-moz-transition: all .5s;-o-transition: all .5s; -webkit-transition: all .5s;transition: all .5s;}
+.enter:hover{border: 1px solid #F5C505;color: #F5C505;background: #fff; ;-moz-transition: all .5s;-o-transition: all .5s; -webkit-transition: all .5s;transition: all .5s;}

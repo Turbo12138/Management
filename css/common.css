@@ -1,0 +1,68 @@
+
+
+
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;font-family: "Microsoft YaHei" ! important;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{color:#333;outline:0;}
+body{background:#fff;}
+a:active{text-decoration:none;}
+a:visited{text-decoration:none;}
+.f-cb:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
+
+table tbody tr:hover{background: #C0E1FF;}
+table{
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+    background: #fff;
+}
+table th {
+    text-align: center;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color:#999999;
+    background: #79CFF2;
+    color:#fff;
+}
+table td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #999999;
+}
+.oddrowcolor{
+    background: #F5F5F5;
+}
+.evenrowcolor{
+    background-color:#fff;
+}
+.submit{background: #48D686;color: #fff;font-size: 14px;    padding: 8px 29px;border-radius: 4px;letter-spacing: 4px;}
+.delete{background: #F23535;color: #fff;font-size: 14px;    padding: 8px 29px;border-radius: 4px;letter-spacing: 4px;}
+.inputStyle{width: 248px;height: 32px;border: 1px solid #999999;outline: none;border-radius: 4px;padding-left: 10px;line-height: 32px;}
+.edit{font-size: 14px;color: #00ADF2;padding-left: 1px;padding-right: 1px;}
+.del{font-size: 14px;color: #F23535;padding-left: 1px;padding-right: 1px;}
+.padd{padding-right: 2px;}
+
+.tableWithBorder{border:none!important;}
+.tableWithBorder th{border-width: 0px!important;}
+.tableWithBorder td{border-width: 0px!important;border-bottom: 1px solid #999999!important;}
